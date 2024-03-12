@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="caffetteria, caffè, dolci, cappuccini, cannoli, babà" />
+    <meta name="author" content="Christian, Antonio, Benny, Emmanuel" />
+    <meta name="description" content="Homepage, CoffeeHouse" />
+    <title>Prenotazioni</title>
+    <style>
+        
+
+        section{
+            background-image: url("img/bagno_camera_family.jpeg");
+        }
+
+        .logo_div{
+            background-image: url("img/colazione.jpg");
+            border-style: none;
+        }
+
+        body, p{
+            font-family: Arial, sans-serif;
+        }
+        
+       form{
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        padding-bottom: 40px;
+        margin-top: auto;
+       }
+
+       form label{
+        display: block;
+        margin-bottom: 8px;
+       }
+
+       form input{
+        height: 30px;
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+       }
+
+       form button{
+        background: rgb(156, 87, 8);
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+       }
+
+       .torna-home{
+        background: rgb(156, 87, 8);
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 550px;
+       }
+
+       .torna-H{
+        padding-bottom: 30px;
+       }
+
+       button{
+        margin-left: 250px;
+       }
+
+       .h2-preno{
+        text-align: center;
+        margin-bottom: 30px;
+       }
+       header {
+        text-align: center;
+        background: rgba(255,255,255,1);
+        padding: 2px;
+        margin:0px;
+    }
+    nav {
+        text-align: center;
+        padding: 10px;
+        background-color: beige;
+    }
+
+    a{
+        text-decoration: none;
+    }
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 20px;
+        }
+
+            nav a:hover {
+                background-color: rgb(102, 211, 102);
+                border-radius: 3px;
+                padding: 5px;
+            } 
+        .per-corso{
+            margin-right: 150px;
+            padding-bottom: 10px;
+        }
+
+        .divcorso{
+            padding-left: 500px;
+            color: black;
+        }
+
+
+        .footer_line{
+            margin-top: 100px;}
+    
+            .container {
+                display: flex;
+                justify-content: space-between;
+                padding: 20px;
+            }
+    
+            .column {
+                flex: 1;
+                margin: 0 10px;
+            }
+    
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+    
+            th, td {
+                padding: 8px;
+                text-align: left;
+            }
+    
+            .copyright, .newsletter {
+                margin-top: 40px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+            }
+
+    </style>
+</head>
+<body>
+<!--Header started here-->
+<header>
+    <div class="logo_div">
+    <img src="img/Logo_Capra-removebg-preview.png" width="250px" height="250px" />
+    </div>
+    <nav>
+<!--Nav bar started here-->
+
+        <a href="Index.html">Home</a>
+        <a href="camere.html">Camere</a>
+        <a href="servizi.html">Servizi</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="prenota.html">Prenota</a>
+        <a href="recensioni.html">Recensione</a>
+        <a href="contatti.html">Contatti</a>
+    </nav>
+</header>
+
+<!--form per le Pronatazioni-->
+<section>
+  <form>
+    <h3 class="h2-preno">Prenotazione</h3>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="name" required>
+
+    <label for="nationalita">Nationalita:</label>
+    <input type="text" name="nationalita" id="nationalita" required>
+
+    <label for="data">Data di Nascita:</label>
+    <input type="date" name="data" id="data" required>
+
+    <label for="select">Tipo di Stanza?</label>
+    <input type="text" name="Sciegli" id="">
+
+    <label for="data">Data Ingresso:</label>
+    <input type="date" name="data" id="data" required>
+
+    <label for="time">Orario Ingresso:</label>
+    <input type="time" name="orario" id="orario">
+
+    <button type="submit">Prenota Ora</button>
+  </form>
+</section>
+
+<!--Button torna Home-->
+
+<div class="torna-H">
+    <a class="torna-home" href="#">Torna Home</a>
+</div>
+</body>
+<!--Footer started below-->
+<footer class="footer">
+    <!--A break line below-->
+        <hr>
+        <div class="container">
+            <div class="column">
+                <h2>Informazioni</h2>
+                <table>
+                    <tr>
+                        <td><a href="#">Home</a></td>
+                        <td><a href="#">Camere</a></td>
+                        <td><a href="#">Servizi</a></td>
+                        <td><a href="#">Galeria</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Prenota</a></td>
+                        <td><a href="#">Recensione</a></td>
+                        <td><a href="#">Contatti</a></td>
+                        <td><a href="#">Blog</a></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </table>
+            </div>
+        
+            <div class="column">
+                <p class="copyright">&copy; 2024 Capra & Cavoli</p>
+            </div>
+        
+            <div class="column">
+                <p class="newsletter">Subscribe to our newsletter!</p>
+                <form class="footer-form">
+                    <label for="Newsletter">Newsletter:</label>
+                    <input type="email" name="newsletter" id="Newsletter" placeholder="Enter Email">
+                    <button class="btn" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+          </div>
+    </footer>
+</html>

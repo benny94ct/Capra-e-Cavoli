@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--informazioni-->
+    <meta charset="utf-8" />
+    <meta name="viewport" contetn="width=device-width, initial scale=1" />
+    <meta name="description" content="Recensioni Ospiti " />
+    <meta name="keywords" content="hotel, bed and breakfast, tour guidato città " />
+    <meta name="author" content="Christian, Jonathan, Benny, Emanuel" />
+  <!--Titolo sito web -->
+<title>Camere </title>
+
+<style>
+
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    img{
+        padding: 20px;
+    }
+
+    .footer_line{
+        margin-top: 100px;}
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .column {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        .copyright, .newsletter {
+            margin-top: 40px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+    a{
+        text-decoration: none;
+    }
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 20px;
+        }
+
+            nav a:hover {
+                background-color: rgb(102, 211, 102);
+                border-radius: 3px;
+                padding: 5px;
+            }
+
+            header {
+                text-align: center;
+                background: rgba(255,255,255,1);
+                padding: 2px;
+                margin:0px;
+            }
+            nav {
+                text-align: center;
+                padding: 10px;
+                background-color: beige;
+            }
+            .footer{
+                background-color: beige;
+                height: 200px;
+            }
+            .logo_div{
+                background-image: url("img/colazione.jpg");
+                border-style: none;
+            }
+            
+            .header{
+                margin-top: 60px;
+            }
+</style>
+
+</head>
+<body>
+    <header>
+        <div class="logo_div">
+        <img src="img/Logo_Capra-removebg-preview.png" width="250px" height="250px" />
+        </div>
+        <nav>
+    <!--Nav bar started here-->
+    
+            <a href="Index.html">Home</a>
+            <a href="#">Camere</a>
+            <a href="#">Servizi</a>
+            <a href="#">Galeria</a>
+            <a href="#">Prenota</a>
+            <a href="recensioni.html">Recensione</a>
+            <a href="contatti.html">Contatti</a>
+        </nav>
+    </header>
+
+    <div class="header"> 
+    <h3 align="center">Disponibilita' delle nostre Stanze</h3>
+</div>
+    <br />
+    <br />
+
+    <table>
+        <tr>
+            <!-- <tr> serve per creare una riga -->
+            <td>
+                Camera Singola Standard:prezzo50€ <br /> Camera adatta a viaggiatori dotata di un ottimo letto singolo con bagno privato.</td>
+
+
+
+                <!-- stiamo definendo una colonna -->
+            <td><img src="img/cameramatrimonialedeluxe.jpg" style="width:500px; height:400px; " /></td>
+
+        </tr>
+        <tr>
+            <!-- <tr> serve per creare una riga -->
+            <td> <img src="img/cameramatrimonialedeluxe.jpg" style="width:500px; height:400px; " /></td>  <!-- stiamo definendo una colonna -->
+            <td>Camera Matrimoniale Deluxe:prezzo70€<br />Camera estremamente curata ed elegente,caratterizzata da ampi spazi <br />ed arredi di assoluta raffinatezza in grado di soddisfare anche la clientela piu'esigente. <br /> </td>
+
+
+
+
+        </tr>
+        <tr>
+            <td>Suite Familiare:prezzo100€<br />Questa Suite abbastanza spaziosa, con due bagni personali<br />e 3 vasche idromassaggi per chi vuole un attimo rilassarsi,<br />stanza abbastanza luminosa,e compresa di uno schermo tv di ultima generazione. </td>
+            <td> <img src="img/suitefamiliare.jpg" style="width:500px; height:400px; " /></td>
+
+        </tr>
+        <tr>
+            <!-- <tr> serve per creare una riga -->
+            <td> <img src="img/cameravistamontagna.jpg" style="width:500px; height:400px; " /></td>  <!-- stiamo definendo una colonna -->
+            <td>Camera vista Montagna:prezzo150€<br />Camera ottima all'insegna di una notte Romantica,adatta sopratutto per coppie<br />che amano i tramonti e bei panorami,che si affacciano sulla montagna</td>
+
+
+        </tr>
+
+    </table>
+<!--Footer started below-->
+<footer class="footer">
+    <!--A break line below-->
+        <hr>
+        <div class="container">
+            <div class="column">
+                <h2>Informazioni</h2>
+                <table>
+                    <tr>
+                        <td><a href="#">Home</a></td>
+                        <td><a href="#">Camere</a></td>
+                        <td><a href="#">Servizi</a></td>
+                        <td><a href="#">Galeria</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Prenota</a></td>
+                        <td><a href="#">Recensione</a></td>
+                        <td><a href="#">Contatti</a></td>
+                        <td><a href="#">Blog</a></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </table>
+            </div>
+        
+            <div class="column">
+                <p class="copyright">&copy; 2024 Capra & Cavoli</p>
+            </div>
+        
+            <div class="column">
+                <p class="newsletter">Subscribe to our newsletter!</p>
+                <form class="footer-form">
+                    <label for="Newsletter">Newsletter:</label>
+                    <input type="email" name="newsletter" id="Newsletter" placeholder="Enter Email">
+                    <button class="btn" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+          </div>
+    </footer>
+</html>
